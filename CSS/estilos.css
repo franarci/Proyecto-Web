@@ -129,6 +129,11 @@ h4::before{
     font-size: 10px;
 }
 
+h4::after{
+    content: "\e900";
+    font-family: 'icomoon';
+}
+
 .division div img {
     width: 80%;
     margin: auto;
