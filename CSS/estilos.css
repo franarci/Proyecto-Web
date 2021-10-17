@@ -206,5 +206,23 @@ footer {
     height: 50px;
     cursor: pointer;
     border-radius: 20px;
+}
 
+@media(max-width: 768px){
+    body{
+        font-size: 80%;
+   
+    };
+    .division{
+        flex-direction: column;
+    }
+    .division * {
+        width: 100% !important;
+    }
+}
+
+@media(max-width:400px){
+    body{
+        font-size: 50%;
+    }
 }
