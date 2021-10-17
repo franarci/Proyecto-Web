@@ -129,7 +129,7 @@ h4::before{
     font-size: 10px;
 }
 
-h4::after{
+h4:after{
     content: "\e900";
     font-family: 'icomoon';
 }
