@@ -108,6 +108,13 @@ main {
     color: #e8bf65;
 }
 
+.nosotros .grilla{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 200px 200px;
+}
+
 h4 {
     color: #e8bf65;
     font-size: 1.4em;
