@@ -231,3 +231,18 @@ footer {
         font-size: 50%;
     }
 }
+
+.container-fluid { 
+    position: fixed; 
+    background-color: rgba(0,0,0,0.8); 
+    height: 100%; 
+    top: 0; 
+    left:0; 
+    color:white; 
+}
+.container { 
+    width:50%; 
+    position:absolute; 
+    top: 20%; 
+    left: 20%;
+}
