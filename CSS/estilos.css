@@ -11,8 +11,7 @@
     box-sizing: border-box;
 }
 
-h1,
-h2 {
+h1,h2 {
     margin: 0;
 }
 
@@ -170,3 +169,17 @@ footer {
     align-items: center;
     color: white;
 }
+
+.grilla div{
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grilla div:first-child { 
+    background-position: -140px 0px ;
+    grid-row-start: 1; grid-row-end: 3;
+    background-image: url(../imagenes/gym-01.jpg);
+}
+.grilla div:nth-child(2) { background-image: url(../imagenes/gym-02.jpg);}
+.grilla div:nth-child(3) { background-image: url(../imagenes/gym-03.jpg);}
